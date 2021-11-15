@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato&family=Roboto:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+header {
+    width: 100%;
+    background: #ED4C5C;
+    padding: 95px 0;
+}
+
+header .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header_text {
+    width: 445px;
+    height: 267px;
+    margin-right: 81px;    
+}
+
+.header_text h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 45px;
+}
+
+.header_icons {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.header_icons img {
+    margin-right: 25px;
+}
+
+.header_image {
+    width: 533px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.background_left {
+    width: 383px;
+    position:absolute;
+    z-index: -1;
+    left: 0px
+}
+
+.background_right {
+    width: 383px;
+    position:absolute;
+    z-index: -1;
+    right:0;
+}
+
+.contact_block {
+    width: 100%;
+    padding: 117px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_text {
+    width: 445px;
+    height: 160px;  
+    margin-right: 125px;
+}
+
+.contact_text h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.contact_text p {
+    color: #000000;
+}
+
+.contact_form {
+    width: 540px;
+    height: 305px;
+}
+
+.field {
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 20px 0 20px 30px;
+    margin-bottom: 24px;
+}
+
+.big {
+    width: 540px;
+    height: 60px;
+    margin-bottom: 24px;
+}
+
+.small {
+    width: 255px;
+    height: 60px;
+}
+
+.fullname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit {
+    width: 160px;
+    height: 50px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.chevron {
+    position: absolute;
+    right: 23px;
+    top: 23px;
+}
+
+.select_service {
+    appearance: none;
+    color: #808080
+}
+
+.footer {
+    background-color: #FAFAFA;
+    width: 100%;
+    color: #000000;
+    padding: 85px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_block {
+    width: 270px;
+}
+
+.footer_block h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 33px;
+}
+
+.footer_block .footer_links {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.social_media a {
+    text-decoration: none;
+}
+
+.social_media {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    width: 66px;
+}
+
+.rights {
+    margin-top: 141px;
+}
+
+@media screen and (max-width: 768px) {
+   
+    .header_text{
+        width: 90%;
+        margin-bottom: 30px;
+        margin-right: 0px;    
+    }
+
+    .header_image, .background_left, .background_right, .foreground {
+        width: 90%;
+    }
+
+    .footer, .center, .contact_block, header  {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .big, .small, .submit, .contact_form {
+        width: 90%;
+    }
+
+    .contact_text{
+        width: 90%;
+        margin: 0;
+    }
+
+    .rights {
+        margin-top: 20px;
+    }
+
+    .footer_block{
+        margin-bottom: 20px;
+    }
+}
