@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+    
+}
+
+body {
+    background-color: #2C2C2C;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.table {
+    margin: 100px 50px;
+    max-width: 800px;
+    overflow-x: auto;
+    border: 1px solid #535353;
+    border-radius: 5px;
+
+}
+
+.file_table {
+    width: 100%;
+    border-style: hidden;
+    border-collapse: collapse;
+}
+
+thead {
+    font-weight: bold;
+}
+
+tr,th{
+    height: 40px;
+    text-align: left;
+    border-bottom: 1px solid #535353;
+}
+
+td,th {
+    vertical-align: middle;
+    padding: 10px 15px;
+}
+
+td.col2 {
+    opacity: 50%;
+}
+
+.col1 {
+    width: 55%;
+}
+
+.col2 {
+    width: 40%;
+    position: relative;
+}
+
+.col3 {
+    width: 5%;
+}
+
+
+.dots.unactive {
+    opacity: 50%;
+    color: #fff;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.minus-button {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+}
+
+.material-icons.inventory {
+    color: #17A1FA;
+    font-size: 18px;
+}
+
+.search {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    max-width: 190px;
+    border: none;
+    border-radius: 6px;
+    color: #a2a2a2;
+    padding: 12px 22px 12px 42px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 16px;
+    background: #444 url(../images/search1.png) no-repeat;
+    background-size: 40px;
+}
+
