@@ -41,10 +41,6 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-    
-}
-
 body {
     background-color: #2C2C2C;
     color: #fff;
