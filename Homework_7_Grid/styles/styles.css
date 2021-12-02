@@ -82,6 +82,14 @@ q:before, q:after {
     gap: 60px;
 }
 
+.menu > a {
+    color: #111111;
+}
+
+.menu > a:hover{
+    text-decoration: underline;
+}
+
 .header-contact {
     grid-template-columns: repeat(3, auto);
     gap: 20px;
